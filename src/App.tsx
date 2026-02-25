@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 
-const App: React.FC = () => {
+function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -228,6 +228,6 @@ const App: React.FC = () => {
       </footer>
     </div>
   );
-};
+}
 
 export default App;
